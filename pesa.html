@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>cool pesa</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/bootstrap.min.css'>
+    <style>
+        body{
+            background-color: lightgrey;
+        }
+
+        .block-1{
+            background-color: #138241;
+            padding: 5em;
+            margin: 1em;
+            border-radius: 15px;
+            position: relative;
+            height: 649px;
+            width: 1300px;
+            align-self: center;
+        }
+        .block-text-1{
+            width: 615px;
+            height: 243px;
+            left: 70px;
+            top: 70px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 169.19%;
+            letter-spacing: -0.025em;
+
+        }
+        .b1-h3{
+            color: white;
+            padding-top: ;
+            font-family: Helvetica;
+            font-size: 38px;
+            font-weight: 300;
+            line-height: 65px;
+            letter-spacing: -0.025em;
+            text-align: left;
+        }
+        .b1-h3-1{
+            color: orange;
+            font-family: Noto Sans JP;
+            font-size: 38px;
+            font-weight: 300;
+            line-height: 65px;
+            letter-spacing: -0.025em;
+            text-align: left;
+        }
+        .b1-h6{
+            font-family: Helvetica;
+            font-weight: 400;
+            line-height: 35px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: white;
+        }
+        .input-air{
+            text-decoration: none;
+            text-align: center;
+            background-color: green;
+            color: white;
+            padding-bottom: 14px;
+            margin-right: 40px;
+            border-radius: 10px;
+            font-weight: bold;
+            z-index: 1;
+            border: 2px solid rgba(207,213,235,.5);
+            font-size: 17px;
+            width: 20em;
+            padding-left: 15px;
+            box-sizing: border-box;
+            padding: 20px 20px;
+            line-height: 25px;
+            letter-spacing: 0.15em;
+        }
+        .input-sale{
+            letter-spacing: 0.15em;
+            text-decoration: none;
+            font-size: 17px;
+            text-align: center;
+            background-color: white;
+            color: green;
+            padding-bottom: 14px;
+            border-radius: 10px;
+            font-weight: bold;
+            z-index: 1;
+            box-sizing: border-box;
+            padding: 20px 20px;
+            width: 20em;
+        }
+        .block-1-img{
+            justify-content: left;
+            position: relative;
+        }
+        .block-2{
+            border: 2px solid green;
+            height: 280px;
+            width: 300px;
+            left: 0px;
+            top: 20em;
+            margin-top: 3.5em;
+            border-radius: 17.41379165649414px;
+            background-color: #E5E5E5;
+            margin-left: 10em;
+        }
+        .b2-h4{
+            width: 150px;
+            left: 32.215576171875px;
+            top: 1px;
+            border-radius: nullpx;
+            margin-right: 1em;
+            font-weight: bold;
+            font-size: medium;
+            padding-top: 4.5em;
+        }
+        .b2-h5{
+            height: 165px;
+            width: 273.39654541015625px;
+            left: 1em;
+            margin-top: -1em;
+            font-size:small;
+            font-weight: normal;
+            margin-left: 1.5em;
+            line-height: 25px;
+        }
+        .block-3{
+            border: 2px solid green;
+            height: 370px;
+            width: 370px;
+            left: 0px;
+            top: 70px;
+            border-radius: 21.74px;
+            background-color: #138241;
+            margin-left: 3em;
+        }
+        .b3-h4{
+            width: 150px;
+            left: 32.215576171875px;
+            top: 1px;
+            border-radius: nullpx;
+            margin-left: 1em;
+            font-weight:bolder;
+            font-size:larger;
+            padding-top: 4.8em;
+            color: white;
+            line-height:25px;
+        }
+        .b3-h5{
+            height: 165px;
+            width: 273.39654541015625px;
+            left: 1em;
+            margin-top: -1em;
+            font-size:small;
+            font-weight:normal;
+            margin-left: 1.5em;
+            color: white;
+            line-height: 27px;
+        }
+        .block-4{
+            border: 2px solid green;
+            height: 280px;
+            width: 300px;
+            left: 0px;
+            top: 20em;
+            margin-top: 3.5em;
+            border-radius: 17.41379165649414px;
+            background-color: #E5E5E5;
+            margin-left: 2.9em;
+        }
+        .b4-h4{
+            width: 200px;
+            left: 32.215576171875px;
+            top: 1px;
+            border-radius: nullpx;
+            margin-left: 0.9em;
+            font-weight: bold;
+            font-size: medium;
+            padding-top: 4.5em;
+        }
+        .b4-h5{
+            height: 165px;
+            width: 273.39654541015625px;
+            left: 1em;
+            margin-top: -1em;
+            font-size:small;
+            font-weight: normal;
+            margin-left: 1.5em;
+            line-height: 25px;
+        }
+        @media(max-width:1024px){
+            .block-1-img{
+                left: -100px;
+                margin-left:0;
+                align-items: flex-end;
+            }
+        }
+     </style>
+    <script src='main.js'></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <!-- Brand -->
+        <img src="layer 1.png">
+        <!-- Toggler/collapsibe Button -->
+	  <button class="navbar-toggler nav-succcess" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+	    <span class="navbar-toggler-icon bg-success"></span>
+	  </button>
+
+	    <!-- Navbar links -->
+	    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link active  text-dark" href="">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Introduce</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Tokens</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="">Features</a>
+                </li>
+                <li>
+                    <button type="button" class="btn btn-success text-white">Connect Wallet</button>
+                </li>
+            </ul>
+	    </div>
+    </nav>
+
+    <section class="block-1">
+        <div class="block-1-img">
+            <img src="Woman.png" class="img-fluid float-right mb-15em mx-auto" style="height: 570px;" alt="">
+            <img src="BTC 1.png" class="img-fluid float-right mx-auto" style="right: 0; margin-top: -9em; padding-left: 10em; height: 290px; width: 290px; position:absolute; top: 0;" alt="">
+        </div>
+        <div class="block-text-1">
+            
+            <h3 class="b1-h3">The powerful <h class=b1-h3-1>multi-purpose</h> </br> 
+                platform that puts you on </br> the <h class=b1-h3-1>blockchain</h3-1> world
+            </h3>
+            
+            <h6 class="b1-h6">Want to know about the next best thing coming your way?</br>
+                We bring you the best of social media, networking</br>
+                and cryptocurrency in this project. 
+            </h6>
+            <div class="email">
+                <form class="form">
+                    <a href="" class="input-air">Airdrop</a>
+                    <a href="" class="input-sale">Pre-sale</a>
+                </form>
+            </div>
+            <ul class="timer">
+                
+            </ul>
+        </div>
+    </section>
+    <div class="container">
+        <h3 class="text-success text-center float-center" style="font-family: Montserrat; bottom: 10em; height: 90 px; margin-top: 1em; font-size: 40px; font-weight: 600px; line-height: 96px; letter-spacing: 0em; text-align: left;"
+        >Introduce</h3>
+        <img src="Vector 6.png" style=" display: block; margin-bottom: 5em; margin-left: auto; margin-right:auto; margin-bottom: 2em; width: 100px;" alt="">
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="block-2">
+                <img src="Vector (3).png" alt="" style="border: 1.7px solid green; position: absolute; top: 61.5em; right: 70em; background: green; border-radius: 10px;">
+                <p class="b2-h4" style="text-align: center;">Social Connect</p>
+                <p class="b2-h5">The project is a facultative initiative</br> 
+                    that will channel the ability of people to form</br>
+                    bonds via networking for various</br>
+                    purposes, either for buisness, education</br>
+                    talent, showcase artistry or recreation</br>
+                    <a class="b2-link" href="" style=" color: #F7941D; font-size:medium; font-weight:bold;">learn more</a>
+                </p>
+            </div>
+
+            <div class="block-3">
+                <img src="Vector.png" alt="" style="border: 1.7px solid green; top: 58em; right: 47.6em; position: absolute; background: white; border-radius: 10px;">
+                <p class="b3-h4" style="text-align: center;">Investment Plan</p>
+                <p class="b3-h5">Cool Pesa initiative also aims to facilitate</br> 
+                    cooperation among youth to create a symbiotic</br>
+                    relationship between network users. We</br>
+                    encourage viable users' creative/technical ability</br>
+                    by enabling them to use the platform to display</br>
+                    thier craft given the community</br>
+                    <a class="b3-link" href="" style=" color: #F7941D; font-size:medium; font-weight:bolder;">learn more</a>
+                </p>
+            </div>
+
+            <div class="block-4">
+                <img src="Vector (2).png"" style="border: 1.7px solid green; position: absolute; top: 61.5em; right: 22.1em; background: green; border-radius: 10px;">
+                <p class="b4-h4" style="text-align: center;">Cool Pesa's Utility Forms</p>
+                <p class="b4-h5">It is a section of a more broader</br> 
+                    cryptocurrency project spanning over several</br>
+                    day-to-day transactional activities, which</br>
+                    will the tokens string fundamental in</br>
+                    the long term</br>
+                    <a class="b2-link" href="" style=" color: #F7941D; font-size:medium; font-weight:bold;">learn more</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="block-6">
+        <h3 class="text-success text-center float-center" style="font-family: Montserrat; bottom: 10em; height: 90 px; margin-top: 1em; font-size: 40px; font-weight: 600px; line-height: 96px; letter-spacing: 0.25sem; text-align: left;">Token</h3>
+        <img src="Vector 6.png" alt="" style=" display: block; margin-left: auto; margin-top: 0.5em; margin-right:auto; width: 100px;">
+        <img src="Union.png" alt="" style="justify-content: center; height: 409px; position:absolute; width: 1000px; left: 175px; top: 96em; border-radius: 0px;">
+    </div>
+    <script src="assets/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/popper.min.js"></script>
+	<script src="assets/bootstrap.min.js"></script>
+</body>
+</html>
